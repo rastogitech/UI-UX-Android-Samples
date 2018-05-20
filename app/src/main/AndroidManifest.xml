@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.uiuxsamples">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".materialactionbar.MaterialActionBarSampleActivity" />
+        <activity
+            android:name=".materialactionbar.ScrollingActionBarImmediateScrollWithHeaderTabActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".materialactionbar.ScrollingActionBarAtLastScrollActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".materialactionbar.BigScrollingActionBarAtLastScrollActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".materialactionbar.BigScrollingActionBarUntilCollapsedActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".animation.activitytransition.ActivityTransitionAnimationSampleActivity" />
+        <activity android:name=".animation.activitytransition.LeftSlideInAnimationActivity" />
+        <activity android:name=".animation.activitytransition.TopSlideInAnimationActivity" />
+        <activity android:name=".animation.activitytransition.RightSlideInAnimationActivity" />
+        <activity android:name=".animation.activitytransition.BottomSlideInAnimationActivity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/horizonal_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/scrolling_action_bar_at_last_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:text="@string/scrolling_action_bar_at_last_scroll" />
+
+        <Button
+            android:id="@+id/scrolling_action_bar_with_header_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:text="@string/scrolling_action_bar_immediate_scroll_with_header_tabs" />
+
+        <Button
+            android:id="@+id/big_scrolling_action_bar_until_collapsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:text="@string/big_scrolling_action_bar_until_collapsed" />
+
+        <Button
+            android:id="@+id/big_scrolling_action_bar_at_last_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:text="@string/big_scrolling_action_bar_at_last_scroll" />
+
+
+    </LinearLayout>
+</ScrollView>
