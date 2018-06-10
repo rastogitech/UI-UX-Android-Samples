@@ -26,6 +26,13 @@
             android:layout_marginBottom="@dimen/margin_vertical"
             android:text="@string/activity_animations" />
 
+        <Button
+            android:id="@+id/bt_bottom_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:text="@string/bottom_app_bar" />
+
     </LinearLayout>
 
 </ScrollView>

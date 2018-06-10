@@ -46,4 +46,9 @@
     <string name="button_2">Button 2</string>
     <string name="material_action_bar_samples">Material action bars</string>
     <string name="activity_animations">Activity animations</string>
+    <string name="bottom_app_bar">Bottom App Bar</string>
+    <string name="exit">Exit</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="play">Play</string>
 </resources>

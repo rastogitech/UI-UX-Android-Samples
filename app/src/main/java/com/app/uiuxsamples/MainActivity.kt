@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.app.uiuxsamples.animation.activitytransition.ActivityTransitionAnimationSampleActivity
+import com.app.uiuxsamples.bottomappbar.BottomAppBarActivity
 import com.app.uiuxsamples.materialactionbar.MaterialActionBarSampleActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         bt_activity_animations.setOnClickListener(this)
         bt_material_action_bars.setOnClickListener(this)
+        bt_bottom_app_bar.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -40,6 +42,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.bt_material_action_bars ->
                 startActivity(Intent(this, MaterialActionBarSampleActivity::class.java))
+
+            R.id.bt_bottom_app_bar ->
+                startActivity(Intent(this, BottomAppBarActivity::class.java))
         }
     }
 

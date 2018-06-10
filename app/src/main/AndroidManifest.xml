@@ -29,13 +29,12 @@
         <activity
             android:name=".materialactionbar.BigScrollingActionBarUntilCollapsedActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity android:name=".animation.activitytransition.ActivityTransitionAnimationSampleActivity" />
         <activity android:name=".animation.activitytransition.LeftSlideInAnimationActivity" />
         <activity android:name=".animation.activitytransition.TopSlideInAnimationActivity" />
         <activity android:name=".animation.activitytransition.RightSlideInAnimationActivity" />
         <activity android:name=".animation.activitytransition.BottomSlideInAnimationActivity" />
-
+        <activity android:name=".bottomappbar.BottomAppBarActivity"></activity>
     </application>
 
 </manifest>
