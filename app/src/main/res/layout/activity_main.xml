@@ -33,6 +33,13 @@
             android:layout_marginBottom="@dimen/margin_vertical"
             android:text="@string/bottom_app_bar" />
 
+        <Button
+            android:id="@+id/bt_bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:text="@string/bottom_sheet" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -1,7 +1,10 @@
 <resources>
     <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="large_app_bar_height">220dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
     <dimen name="horizonal_padding">16dp</dimen>
     <dimen name="margin_vertical">16dp</dimen>
+    <dimen name="bottom_navigation_view_height">60dp</dimen>
+    <dimen name="title_spacing">20dp</dimen>
 </resources>

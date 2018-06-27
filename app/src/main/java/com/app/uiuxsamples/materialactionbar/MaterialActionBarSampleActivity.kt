@@ -6,6 +6,7 @@ import android.view.View
 import com.app.uiuxsamples.BaseActivity
 import com.app.uiuxsamples.R
 import kotlinx.android.synthetic.main.activity_material_action_bar_sample.*
+
 /**
  * Copyright 2018 Rahul Rastogi. All Rights Reserved.
  * <p>
@@ -50,6 +51,7 @@ class MaterialActionBarSampleActivity : BaseActivity(), View.OnClickListener {
         scrolling_action_bar_at_last_scroll.setOnClickListener(this)
         big_scrolling_action_bar_at_last_scroll.setOnClickListener(this)
         big_scrolling_action_bar_until_collapsed.setOnClickListener(this)
+        parallax_action_bar.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -65,6 +67,9 @@ class MaterialActionBarSampleActivity : BaseActivity(), View.OnClickListener {
 
             R.id.big_scrolling_action_bar_until_collapsed ->
                 startActivity(Intent(this, BigScrollingActionBarUntilCollapsedActivity::class.java))
+
+            R.id.parallax_action_bar ->
+                startActivity(Intent(this, ParallaxScrollingBarActivity::class.java))
         }
     }
 

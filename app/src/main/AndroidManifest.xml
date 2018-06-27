@@ -29,12 +29,22 @@
         <activity
             android:name=".materialactionbar.BigScrollingActionBarUntilCollapsedActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".materialactionbar.ParallaxScrollingBarActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".animation.activitytransition.ActivityTransitionAnimationSampleActivity" />
         <activity android:name=".animation.activitytransition.LeftSlideInAnimationActivity" />
         <activity android:name=".animation.activitytransition.TopSlideInAnimationActivity" />
         <activity android:name=".animation.activitytransition.RightSlideInAnimationActivity" />
         <activity android:name=".animation.activitytransition.BottomSlideInAnimationActivity" />
-        <activity android:name=".bottomappbar.BottomAppBarActivity"></activity>
+        <activity android:name=".bottomappbar.BottomAppBarActivity" />
+        <activity
+            android:name=".sheet.BottomSheetActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".materialactionbar.abc"
+            android:label="@string/title_activity_abc"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

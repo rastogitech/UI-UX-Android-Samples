@@ -36,6 +36,13 @@
             android:layout_marginBottom="@dimen/margin_vertical"
             android:text="@string/big_scrolling_action_bar_at_last_scroll" />
 
+        <Button
+            android:id="@+id/parallax_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical"
+            android:text="@string/parallax_scroll_bar" />
+
 
     </LinearLayout>
 </ScrollView>

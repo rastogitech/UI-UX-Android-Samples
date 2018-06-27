@@ -7,6 +7,11 @@
     android:layout_height="match_parent"
     tools:context="com.app.uiuxsamples.bottomappbar.BottomAppBarActivity">
 
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -22,7 +27,7 @@
         android:layout_gravity="bottom"
         android:backgroundTint="@color/colorAccent"
         app:fabAlignmentMode="end"
+        app:hideOnScroll="true"
         app:layout_constraintBottom_toBottomOf="@+id/parent" />
-
 
 </android.support.design.widget.CoordinatorLayout>
